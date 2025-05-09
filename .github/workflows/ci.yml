@@ -1,0 +1,36 @@
+name: CI Процесс
+
+on:
+  push:
+    branches: [develop, release/*, main,hotfix/v1.0.1]
+  pull_request:
+    branches: [develop, release/*, main,hotfix/v1.0.1]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: JDK 17 тохируулах
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Navigate to project directory
+        working-directory: ./lab-project
+        run: echo "Navigated to lab-project directory"
+
+      - name: Checkstyle шалгах
+        working-directory: ./lab-project
+        run: mvn checkstyle:check
+
+      - name: JUnit тест ба JaCoCo coverage шалгах
+        working-directory: ./lab-project
+        run: mvn test jacoco:check
+
+      - name: JaCoCo тайлан үүсгэх
+        working-directory: ./lab-project
+        run: mvn jacoco:report
