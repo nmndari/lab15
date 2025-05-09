@@ -13,8 +13,9 @@ public class DivisionTest {
     @Test
         void testDivideByZero() {
             Division calc = new Division();
-            assertThrows(IllegalArgumentException.class, () -> calc.divide(4.0, 0.0),
+            IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> calc.divide(4.0, 0.0),
             "Тэгээр хуваах нь exception өгчих байх ёстой");
+            assertEquals("Cannot divide by zero", exception.getMessage(), "Exception message should match");
         }
 }
 
