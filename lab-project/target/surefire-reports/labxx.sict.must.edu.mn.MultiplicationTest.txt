@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: labxx.sict.must.edu.mn.MultiplicationTest
 -------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.133 s -- in labxx.sict.must.edu.mn.MultiplicationTest
-=======
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s -- in labxx.sict.must.edu.mn.MultiplicationTest
->>>>>>> origin/develop
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s -- in labxx.sict.must.edu.mn.MultiplicationTest
