@@ -15,4 +15,3 @@ class DivisionTest {
         assertThrows(IllegalArgumentException.class, () -> Division.divide(5, 0));
     }
 }
-

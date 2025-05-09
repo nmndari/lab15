@@ -5,6 +5,7 @@ public final class Division {
     private Division() {
         // prevent instantiation
     }
+
     /**
      * Divides two integers.
      *
@@ -20,4 +21,3 @@ public final class Division {
         return a / b;
     }
 }
-

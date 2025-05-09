@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="labxx.sict.must.edu.mn.MultiplicationTest" time="0.003" tests="1" errors="0" skipped="0" failures="0">
+=======
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="labxx.sict.must.edu.mn.MultiplicationTest" time="0.006" tests="1" errors="0" skipped="0" failures="0">
+>>>>>>> hotfix/v1.0.1
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +19,11 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+<<<<<<< HEAD
     <property name="sun.java.command" value="C:\Users\ebo\AppData\Local\Temp\surefire16009188182022739409\surefirebooter-20250509163436601_3.jar C:\Users\ebo\AppData\Local\Temp\surefire16009188182022739409 2025-05-09T16-34-36_441-jvmRun1 surefire-20250509163436601_1tmp surefire_0-20250509163436601_2tmp"/>
+=======
+    <property name="sun.java.command" value="C:\Users\ebo\AppData\Local\Temp\surefire13714133917982678561\surefirebooter-20250509160042878_3.jar C:\Users\ebo\AppData\Local\Temp\surefire13714133917982678561 2025-05-09T16-00-42_648-jvmRun1 surefire-20250509160042878_1tmp surefire_0-20250509160042878_2tmp"/>
+>>>>>>> hotfix/v1.0.1
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ebo\lab15\lab-project\target\test-classes;C:\Users\ebo\lab15\lab-project\target\classes;C:\Users\ebo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\ebo\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ebo\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\ebo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ebo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;C:\Users\ebo\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.0\junit-jupiter-5.11.0.jar;C:\Users\ebo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.0\junit-jupiter-engine-5.11.0.jar;C:\Users\ebo\.m2\repository\org\junit\platform\junit-platform-engine\1.11.0\junit-platform-engine-1.11.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +38,11 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
+<<<<<<< HEAD
     <property name="surefire.real.class.path" value="C:\Users\ebo\AppData\Local\Temp\surefire16009188182022739409\surefirebooter-20250509163436601_3.jar"/>
+=======
+    <property name="surefire.real.class.path" value="C:\Users\ebo\AppData\Local\Temp\surefire13714133917982678561\surefirebooter-20250509160042878_3.jar"/>
+>>>>>>> hotfix/v1.0.1
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.1+8-16"/>
@@ -58,5 +70,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
+<<<<<<< HEAD
   <testcase name="testMultiplyPositive" classname="labxx.sict.must.edu.mn.MultiplicationTest" time="0.001"/>
+=======
+  <testcase name="testMultiplyPositive" classname="labxx.sict.must.edu.mn.MultiplicationTest" time="0.004"/>
+>>>>>>> hotfix/v1.0.1
 </testsuite>
