@@ -1,6 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="9.3">
-<file name="C:\Users\ebo\lab15\lab-project\src\main\java\labxx\sict\must\edu\mn\Multiplication.java">
-<error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
-</file>
 </checkstyle>
